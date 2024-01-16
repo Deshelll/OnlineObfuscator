@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обфускатор JS</title>
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <header>
+        <h1>Обфускатор JavaScript</h1>
+      </header>
+    <div class="container">
+        <div class="text-area-container">
+            <textarea id="inputCode" placeholder="Вставьте ваш JS код здесь..."></textarea>
+            <div class="options">
+                <div>
+                    <input type="checkbox" id="addVariablesCheckbox">
+                    <label for="addVariablesCheckbox">Добавить переменные</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="removeCommentsCheckbox">
+                    <label for="removeCommentsCheckbox">Удалить комментарии</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="removeSpacesCheckbox">
+                    <label for="removeSpacesCheckbox">Удалить пробелы</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="renameVariablesCheckbox">
+                    <label for="renameVariablesCheckbox">Переименовать переменные</label>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Кнопка "Обфусцировать" -->
+        <button id="obfuscateButton">Обфусцировать</button>
+        <div class="output-container"></div>
+            <textarea id="outputCode" rows="10" cols="50" placeholder="Результат будет здесь..." readonly></textarea>
+        </div>
+        <script src="/src/obfuscator.js"></script>
+    </body>
+    
+    </html>

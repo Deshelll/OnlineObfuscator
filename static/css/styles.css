@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px; 
+}
+
+textarea {
+    background-color: #ccc; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px; 
+    width: 600px; 
+    height: 200px; 
+    resize: vertical; 
+    font-size: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px; 
+}
+
+#obfuscateButton {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 30px 50px; 
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+    font-size: 25px;
+    margin: 20px auto; 
+    cursor: pointer;
+    border-radius: 4px;
+    width: 300px; 
+    }
+    
+    .container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: start;
+    width: 100%; 
+    max-width: 1600px; 
+    margin-top: -700px; 
+    font-size: 20px;
+}
+
+    header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #222; 
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+}
+    
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 55px;
+    }
